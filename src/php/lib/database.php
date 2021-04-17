@@ -1,6 +1,6 @@
 <?php
 /**
- * Auteur : Anthony Höhn
+ * Auteur : Killian Good
  * Date : 15.03.2021
  * Description :
  */
@@ -13,7 +13,7 @@
     //connexion à la bdd en faisant essayant puis si erreur récupere le message et affiche le message d'erreur 
     public function __construct(){
     try{
-        $this->connector = new PDO("mysql:host=localhost;dbname=db_nickname_anthohn;charset=utf8", "dbNicknameUser", "grp2B_21");
+        $this->connector = new PDO("mysql:host=localhost;dbname=db_nickname_kilgood;charset=utf8", "dbNicknameUser", "grp2B_21");
         }
         catch(PDOException $e)
         {
